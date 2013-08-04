@@ -1,0 +1,31 @@
+{
+  "name"            : "hub-namespace",
+  "version"         : "0.1.0",
+  "description"     : "Namespaces for hub.js",
+  "keywords"        : ["event", "emitter", "listener", "pubsub", "namespace"],
+  "author"          : "Maximilian Antoni (http://maxantoni.de)",
+  "main"            : "./lib/namespace.js",
+  "engines"         : {
+    "node"          : ">=0.6"
+  },
+  "scripts"         : {
+    "test"          : "make test"
+  },
+  "repository"      : {
+    "type"          : "git",
+    "url"           : "https://github.com/mantoni/hub-namespace.js.git"
+  },
+  "devDependencies" : {
+    "hubjs"         : "~0.14.0",
+    "utest"         : "~0.0.8",
+    "urun"          : "~0.0.6",
+    "sinon"         : "~1.6.0",
+    "uglify-js"     : "~1.2.6",
+    "autolint"      : "~1.0.4",
+    "phantomic"     : "~0.2.0",
+    "browserify"    : ">=2.13 <3",
+    "consolify"     : "~0.4.0",
+    "browser-reload": ">=1.0 <2"
+  },
+  "files"           : ["lib", "README.md", "CHANGES.md", "LICENSE"]
+}
